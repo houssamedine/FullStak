@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<div>
+		<form action="action.php ">
+			First Name:<input type="text" name="nom"><br>
+			Last Name :<input type="text" name="prenom"><br>
+			Email     :<input type="email" name="mail" required><br>
+			Password  :<input type="password" min="5" name="pass"><br>
+			Birthday  :<input type="date" name="age"><br>
+			Gender    :<br>
+						<input type="radio" name="homme" value="Homme">Homme<br>
+						<input type="radio" name="femme" value="Femme">Femme<br>
+			Pets      :<br>
+						<input type="checkbox" name="cat">Cat <br>
+						<input type="checkbox" name="dog">Dog <br>
+			Cars:<br>
+				<!--Pour Faire une selection multipe dans le combobox en ajouter la fonction --------Multiple-->
+						<select name="cars">
+							<option value="volvo" name="volvo" value="Volvo">Volvo</option>
+							<option value="ford" name="ford" value="Ford">Ford</option>
+							<option value="Ferrari" name="ferrari" value="Ferrari">Ferrari<option>
+						</select><br>
+			<input type="submit" value="Save">
+			<input type="reset">
+		</form>
+   </div>
+</body>
+</html>

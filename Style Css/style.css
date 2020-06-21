@@ -1,0 +1,21 @@
+/*Selector{
+	Property: value;
+}*/
+body{
+	background-image: url(6.jpg);
+	background-size: cover;
+}
+h1{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255,255,165,0.5);
+	cursor: pointer;
+}
+p{
+	color: #FFB0AA;
+}
+li{
+	list-style: none;
+	display: inline-
+
+}
