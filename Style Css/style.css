@@ -1,21 +1,53 @@
 /*Selector{
 	Property: value;
 }*/
+*{
+	text-align: right;
+}
+
 body{
 	background-image: url(6.jpg);
 	background-size: cover;
 }
-h1{
+h1,p{
 	color: #AA4139;
 	text-align: center;
 	border: 5px solid rgba(255,255,165,0.5);
 	cursor: pointer;
 }
 p{
-	color: #FFB0AA;
+	text-transform: unset;
+	line-height: 20px; /*L'espace entre les lignes*/
+	font-style: initial;
+	font-weight: bold;
+	font-size: 80%;
+	/*font-family: "Times New Roman", "Georgia";*/
+	font-family: 'Mulish', sans-serif;
+
+} 
+img{
+	float: left;
 }
+
 li{
 	list-style: none;
 	display: inline-
 
+}
+footer{
+	clear: both;
+	text-align: center;
+	color: white; 
+}
+.webtext{
+	border: 5px dashed green;
+}
+.active{
+	color: black;
+}
+#div1{
+	background: white;
+}
+#div2{
+	background: rgba(255,0,0,0.2) ;
 }
